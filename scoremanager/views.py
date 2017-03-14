@@ -2,7 +2,7 @@ import json
 
 from json.decoder import JSONDecodeError
 
-from django.http import HttpResponse, HttpResponseForbidden, HttpResponseBadRequest, HttpResponseNotAllowed, JsonResponse
+from django.http import HttpResponse, HttpResponseBadRequest, HttpResponseNotAllowed, JsonResponse
 from django.shortcuts import render
 
 from .models import ScoreboardEntry
